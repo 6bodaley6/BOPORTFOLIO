@@ -1,0 +1,24 @@
+body {
+    background-color: 	#202020	rgb(54, 54, 54)
+    ;
+ font-family: 
+ tahoma, genevea, sans-serif;
+ font-size:16px
+ font-weight: normal;
+ Line-height:1.6em;
+ margin:0;
+{
+    .container{
+        width:960;
+        margin:auto;
+    }
+    .box-1{
+        background-color: #ff3300
+        color: #fff; 
+
+
+    }
+address {
+    display: block;
+    font-style: "Courier New", Courier, monospace;
+  }
