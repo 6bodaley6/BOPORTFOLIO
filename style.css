@@ -6,6 +6,20 @@
      margin:0;
 
  }
+
+ .container {
+ max-width: 1100px;
+ margin:0 auto;
+ overflow: auto;
+ padding: 0 0;
+ }
+ .container_1 {
+    display:grid;
+    grid-row-start: 20em;
+    
+  .flex {
+
+  }
  body {
     font-family:'Courier New', Courier, monospace;
     
@@ -13,6 +27,7 @@
  }
  ul{
      list-style-type: none;
+     
 
  }
  a{

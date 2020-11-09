@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
  <head>
     <title>Portfolio</title>
@@ -6,39 +6,69 @@
     <link rel="stylesheet" href="Assets/style.css" type="text/css"/>
  </head>
  <body>
-    <div id="Header" aria-label="application role"> 
-       <div class="container-1"aria-label="heading">
-       <h1>Bo Daley</h1> 
-       <div>
-         <div class="navigation-bar"
-            <ul class="nav-bar">
-               <a id="ABOUT-ME"></a>
-               <a id="WORK"></a>
-               <a id="RESEME"></a>
-               <a id="CONTACT-ME"></a>
-            </div>
-            
+
+    <h1 id="name" >Bo Daley</h1> 
+ <!--Navigation Bar Begins -->
+    <div class="container" >
+       <div class="container_1 flex"></div> 
+          <div class="container-1 grid" aria-label="application role"></div> 
+               <div>
+                <div class="navigation-bar"></div>
+                <ul class="nav-bar">
+                <button input type="button"onClick="document.getElementById('top').scrollIntoView();" />ABOUT ME<a></a></button>
+                <button input type="button"onClick="document.getElementById('3/4').scrollIntoView();" />WORK</a></button>
+                <button input type="button"onClick="document.getElementById('middle').scrollIntoView();" />RESEME<a></a><button>
+                <button input type="button"onClick="document.getElementById('middle').scrollIntoView();" />CONTACT ME<a></a><button>
+               </ul>
+             </div>
+          </div>
+         <div>
+ <!-- Navigation Bar Ends Here -->
+ <!-- HEADER STARTS HERE -->
+           <div class="Header "aria-label="heading">
+              <div class="Header- flex">
+              <div class="Header_ grid">  
+            </subtitle class="subtitle" aria-label="banner">semper movere deinceps</subtitle>
+          </div>
+ <!--Header Ends Here-->
+
+ <!--About me Starts -->
+         <div class="ABOUT-ME flex">
+            <div class="ABOUT_ME grid"> 
+               <div id="ABOUT-ME" role="article" aria-label="document role">
+                <article>
+                <div class="box">
+                <h2 class="Header">ABOUT ME</h2>
+                <p class= "box-content">I am 24 years old I am from Utah I have been married to my wife for 3 1/2 years we have a puppy named Lady Bird she is a border collie. I currently am a carpenter  I have done that for almost 5 years, my favorite part about what I currently do while im in school is showing up and there is nothing but the foundation but at the end of the day you can look at what you have accoplished I feel the same satisfaction from programming I love to take on a challenge I am passionate about what I do I love to work with wood but have always had an affection for tech. When I was a kid my two favorite passtimes were playing video games and playing with lincoln logs if you are unfamiliar with what lincoln logs are they are little wood blocks that you use to build minitature cabins and other architectural designs I feel like these affections have followed me into adulthood. I like to look at Software Development as a best of both worlds because you get to have the same satisfaction of figuring out a challenge/puzzle and using basic building blocks to create a structure. My goals are to become  a complete developer I would love to work an all aspects of Development and get an overall grasp of as many languages,concepts,structures. I would like to think that eventually I can take on real world problems and use my skills I gain as time goes on to take on these problems from a different perspective and make the world a better place than before I like to look at my goals almost like the way the Boy Scouts taught me to leave no trace but instead of leaving no trace leaving a big trace but in for the greater good.
+                </p>
+                </article>
+           </div>  
+         </div>
+ <!-- About Me Ends Here -->
+ 
+ <!-- Work Starts Here -->
+       <h3 class="Header">WORK</h3>      
+       <div class="WORK flex" role="button"aria-label="button">
+          <div class="Work_ grid"
+         
+          </h3>
+         <a class="GORILLAZ-FANPAGE"href="http://127.0.0.1:5500/gorillazfanpage.html" alt="Gorillazfanpage" target="_blank">Gorillaz Fanpage</a>
+       </div>
+ <!-- Work Ends Here -->
+     <!--Reseme Starts Here  -->
+       <h4 class="header">RESEME</h4>
+       <div class="RESEME flex">
+          <div class="RESEME_ grid">
+          <iframe class="RESEME_link" title="RESEME"src="https://docs.google.com/document/d/e/2PACX-1vRiqcbrff_9f4HIVFDQmnxPDpNE87kZUrx-1GqQEXiPdOs5q-eoSIaM8IsOtgh2M9AHewLin3MQPdBu/pub?embedded=true"  ></iframe>
        
-    
-    
-       <div id="ABOUT-ME" role="" aria-label="document role">
-       <article>
-       </div class="box">
-       <
-       <p class= "box-content">I am 24 years old I am from Utah I have been married to my wife for 3 1/2 years we have a puppy named Lady Bird she is a border collie. I currently am a carpenter  I have done that for almost 5 years, my favorite part about what I currently do while im in school is showing up and there is nothing but the foundation but at the end of the day you can look at what you have accoplished I feel the same satisfaction from programming I love to take on a challenge I am passionate about what I do I love to work with wood but have always had an affection for tech. When I was a kid my two favorite passtimes were playing video games and playing with lincoln logs if you are unfamiliar with what lincoln logs are they are little wood blocks that you use to build minitature cabins and other architectural designs I feel like these affections have followed me into adulthood. I like to look at Software Development as a best of both worlds because you get to have the same satisfaction of figuring out a challenge/puzzle and using basic building blocks to create a structure. My goals are to become  a complete developer I would love to work an all aspects of Development and get an overall grasp of as many languages,concepts,structures. I would like to think that eventually I can take on real world problems and use my skills I gain as time goes on to take on these problems from a different perspective and make the world a better place than before I like to look at my goals almost like the way the Boy Scouts taught me to leave no trace but instead of leaving no trace leaving a big trace but in for the greater good.
-       </p>
-       </div>
-       </article>
-       </div>
-    
-       </div>
+       <h5 class="Header">CONTACT ME</h5>
        <div id="CONTACT-ME" role="button" aria-label="button role">
        <ul class="media">
-        <button class="icon-1"><img href="https://github.com/6bodaley6" src="assets/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="github-icon"></img></button>
-        <button class="icon-2"><img href="https://www.linkedin.com/in/bo-daley-49054a1b1/" src="assets/LinkedIn-Logos/LI-Logo.png" alt="linkedin-icon"></img></button>
-        <button class="icon-3"><img href="mailto:6bodaley6@gmail.com" src="assets/icons8-gmail-48.png" alt="gmail-icon"></img></button>
-        <button class="icon-4"><img href="tel:8018748670" src="assets/icons8-outgoing-call-48 copy.png"" alt="Outgoing-Phone-Call-Icon"></img></button>
-      </ul>
+        <button class="icon-1"><img href="https://github.com/6bodaley6" src="assets/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="github-icon" target="_blank"></img></button>
+        <button class="icon-2"><img href="https://www.linkedin.com/in/bo-daley-49054a1b1/" src="assets/LinkedIn-Logos/LI-Logo.png" alt="linkedin-icon" target="_blank"></img></button>
+        <button class="icon-3"><img href="mailto:6bodaley6@gmail.com" src="assets/icons8-gmail-48.png" alt="gmail-icon" target="_blank"></img></button>
+        <button class="icon-4"><img href="tel:8018748670" src="assets/icons8-outgoing-call-48 copy.png"" alt="Outgoing-Phone-Call-Icon" target="_blank"></img></button>
+       </ul>
        </div>
     </div>
  </body>
