@@ -1,0 +1,45 @@
+  
+ 
+* {
+     box-sizing:border-box;
+     padding:0;
+     margin:0;
+
+ }
+ body {
+    font-family:'Courier New', Courier, monospace;
+    
+ line-height:1.6em;
+ }
+ ul{
+     list-style-type: none;
+
+ }
+ a{
+     text-decoration: none;
+     
+ }
+ h1, h2 {
+     font-weight: 300;
+     line-height:1.2;
+     margin :10px 0;
+ }
+
+ 
+ #navbar{
+     background-color:rgb(156, 68, 16);
+     grid-column: ;
+     grid-row:;
+ }
+ .media{
+     max-height:48px;
+    
+ }
+ ul button img{
+     max-width:48px;
+     max-height:48px;
+
+ }
+
+
+  
