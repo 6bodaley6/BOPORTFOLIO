@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
  <head>
     <title>Portfolio</title>
@@ -6,34 +6,21 @@
     <link rel="stylesheet" href="Assets/style.css" type="text/css"/>
  </head>
  <body>
-
-    <h1 id="name" >Bo Daley</h1> 
- 
-        <!--Navigation Bar Begins -->
-    <div class="container">
-       <div class="container_1 flex"></div> 
-          <div class="container-1 grid" aria-label="application role"></div> 
-               <div>
-                <div class="navigation-bar"></div>
-                <ul class="nav-bar">
-                <button input type="button"onClick="document.getElementById('h2').scrollIntoView();" />ABOUT ME<a></a></button>
-                <button input type="button"onClick="document.getElementById('h3').scrollIntoView();" />WORK</a></button>
-                <button input type="button"onClick="document.getElementById('h4').scrollIntoView();" />RESEME<a></a><button>
-                <button input type="button"onClick="document.getElementById('h5').scrollIntoView();" />CONTACT ME<a></a><button>
-               </ul>
-             </div>
+    <div>
+       <header>
+         <h1 id="name" >Bo Daley</h1> 
+         <nav>
+            <a href="#ABOUT-ME">ABOUT ME</a>
+            <a href="#my-work">WORK</a>
+            <a href="#resume">RESUME</a>
+            <a href="#CONTACT-ME">CONTACT ME</a>
+        </nav>
+       </header>
+       <section class="banner">
+          <div>
+         <h3 class="subtitle" aria-label="banner">semper movere deinceps</h3>
           </div>
-         <div>
-               <!-- Navigation Bar Ends Here -->
-               <!-- HEADER STARTS HERE -->
-           <div class="Header "aria-label="heading">
-              <div class="Header- flex">
-              <div class="Header_ grid">  
-            </subtitle class="subtitle" aria-label="banner">semper movere deinceps</subtitle>
-          </div>
-             <!--Header Ends Here-->
-
-             <!--About me Starts -->
+       </section>
             <div class="ABOUT-ME-">
                <div class="ABOUT-ME flex">
                   <div class="ABOUT_ME grid"> 
@@ -47,43 +34,39 @@
                   </div>  
                </div>
             </div>
-             <!-- About Me Ends Here -->
- 
-              <!-- Work Starts Here -->
        <h3 class="Header">WORK</h3>      
-       <div class="WORK- flex" role="button"aria-label="button">
+       <div id="my-work"class="WORK- flex" role="button"aria-label="button">
           <div class="Work_ grid">
              <ul>
-                <a href="http://127.0.0.1:5500/gorillazfanpage.html""> <iframe class="GORILLAZ-FANPAGE"src="http://127.0.0.1:5500/gorillazfanpage.html" alt="Gorillaz Fanpage"></img></a>
+                <!-- <a href=""> <iframe class="GORILLAZ-FANPAGE" alt="Gorillaz Fanpage"></img></a> -->
                 <a href=""></a>
              </ul>
        </div>
            <!-- Work Ends Here -->
      
-          <!--Reseme Starts Here  -->
        <h4 class="header">RESEME</h4>
-       <div class="RESEME flex">
-          <div class="RESEME_ grid">
-               <iframe class="RESEME_link" title="RESEME"src="https://docs.google.com/document/d/e/2PACX-1vRiqcbrff_9f4HIVFDQmnxPDpNE87kZUrx-1GqQEXiPdOs5q-eoSIaM8IsOtgh2M9AHewLin3MQPdBu/pub?embedded=true"  ></iframe>
+       <div class="RESUME flex" id="resume">
+          <div class="RESUME_ grid">
+               <iframe class="RESUME_link" title="RESUME"src="https://docs.google.com/document/d/e/2PACX-1vRiqcbrff_9f4HIVFDQmnxPDpNE87kZUrx-1GqQEXiPdOs5q-eoSIaM8IsOtgh2M9AHewLin3MQPdBu/pub?embedded=true"  ></iframe>
           </div>
        </div>
-          <!-- Reseme Ends Here -->
-
-          <!-- CONTACT ME STARTS HERE -->
        <h5 class="Header">CONTACT ME</h5>
        <div id="CONTACT-ME" role="button" aria-label="button role">
           <div class="CONTACT-ME flex">
           <div class="CONTACT_ME grid"> 
              <ul class="icons">
-                 <button class="icon-1"><img class="github" href="https://github.com/6bodaley6" src="assets/Images/GitHub-Mark-32px.png" alt="github-icon" target="_blank"></img></button>
-                <button class="icon-2"><img class="linkedin" href="https://www.linkedin.com/in/bo-daley-49054a1b1/" src="assets/Images/LinkedIn-Logos/LI-Logo.png" alt="linkedin-icon" target="_blank"></img></button>
-                <button class="icon-3"><img class="gmail" href="mailto:6bodaley6@gmail.com" src="assets/images/icons8-gmail-48.png" alt="gmail-icon" target="_blank"></img></button>
-                <button class="icon-4"><img class="phone"href="tel:8018748670" src="assets/images/icons8-outgoing-call-48.png copy.png"" alt="Outgoing-Phone-Call-Icon" target="_blank"></img></button>
-             </ul>
-          </div>
-       </div>
-           <!-- CONTACT ME ENDS -->
-    </div>
- </body>
-</html>
-
+                 <a href="https://github.com/6bodaley6" target="_blank" ><button class="icon" ><img  src="assets/Images/GitHub-Mark-32px.png" alt="github-icon"></img></button></a>
+                 <a href="https://www.linkedin.com/in/bo-daley-49054a1b1/" target="_blank" ><button class="icon" ><img  src="assets/Images/LI-In-Bug.png" alt="linkedin-icon"></img></button></a>
+                 <a href="mailto:6bodaley6@gmail.com" target="_blank" ><button class="icon" ><img  src="assets/images/icons8-gmail-48.png" alt="gmail-icon"></img></button></a>
+                 <a href="tel:8018748670" target="_blank" ><button class="icon" ><img  src="Assets/Images/icons8-outgoing-call-48.png" alt="Outgoing-Phone-Call-Icon"></img></button></a>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </body>
+   </html>
+   
+   
+   <!-- <a class="icon"><img class="linkedin" href="https://www.linkedin.com/in/bo-daley-49054a1b1/" src="assets/Images/LinkedIn-Logos/LI-Logo.png" alt="linkedin-icon" target="_blank"></img></a>
+   <a class="icon"><img class="gmail" href="mailto:6bodaley6@gmail.com" src="assets/images/icons8-gmail-48.png" alt="gmail-icon" target="_blank"></img></a>
+   <a class="icon"><img class="phone"href="tel:8018748670" src="Assets/Images/icons8-outgoing-call-48.png" alt="Outgoing-Phone-Call-Icon" target="_blank"></img></a> -->

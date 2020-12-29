@@ -1,68 +1,79 @@
-  
- 
 * {
-     box-sizing:border-box;
-     padding:0;
-     margin:0;
-     
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+.banner {
+  background-image: url("Images/Snapchat-28473104.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
 
- }
-
- .container {
- display:flex;
- max-width: 1100px;
- margin:0 auto;
- overflow: auto;
- padding: 0 0;
- }
- .container_1 {
-    flex-direction: row; 
-    flex-wrap: nowrap; 
-    justify-content:space-evenly;
-
-     }
- .container-1 {
-    display: grid;
-    grid-row-start: 20em;
- } 
-  .flex {
-
-  }
- body {
-    font-family:'Courier New', Courier, monospace;
-    
- line-height:1.6em;
- }
- ul{
-     list-style-type: none;
-     
-
- }
- a{
-     text-decoration: none;
-     
- }
- h1, h2 {
-     font-weight: 300;
-     line-height:1.2;
-     margin :10px 0;
- }
-
- 
- #navbar{
-     background-color:rgb(156, 68, 16);
-     grid-column: ;
-     grid-row:;
- }
- .media{
-     max-height:48px;
-    
- }
- ul button img{
-     max-width:48px;
-     max-height:48px;
-
- }
-
-
-  
+.banner h3 {
+  display: inline;
+  background-color: whitesmoke;
+}
+#CONTACT-ME {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#CONTACT-ME a {
+  margin-left: 30px;
+}
+#CONTACT-ME a img {
+  min-height: 48px;
+}
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav a {
+  margin-left: 20px;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6em;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+.media {
+  max-height: 48px;
+}
+ul a img {
+  max-width: 48px;
+  max-height: 48px;
+}
