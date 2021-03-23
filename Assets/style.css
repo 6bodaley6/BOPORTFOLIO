@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  padding: 0;
+  padding: 0px;
   margin: 0;
 }
 header {
@@ -8,10 +8,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: gray;
 }
 .banner {
-  background-image: url("Images/Snapchat-28473104.jpg");
   background-size: cover;
   background-position: center;
   min-height: 20vh;
@@ -36,7 +35,8 @@ header {
   margin-left: 30px;
 }
 #CONTACT-ME a img {
-  min-height: 48px;
+  min-height: 32px;
+  max-height: 32px;
 }
 .container {
   display: flex;
