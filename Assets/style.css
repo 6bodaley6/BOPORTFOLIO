@@ -11,6 +11,7 @@ header {
   background-color: #1F363D;
 color: #CFE0C3 ;
 }
+
 .ABOUT-ME- {
   background-color:#1F363D;
   color:#9EC1A3;
@@ -30,11 +31,11 @@ color: #CFE0C3 ;
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
-  background-color: #9EC1A3;
+  background-color: #40798C;
 }
 
 .subtitle {
-  color: #40798C;
+  color: #CFE0C3;
 }
 
 .banner h3 {
@@ -59,6 +60,19 @@ color: #CFE0C3 ;
 #CONTACT-ME a img {
   min-height: 32px;
   max-height: 32px;
+}
+/* #my-work { 
+  background-color: #1F363D;
+  color: #CFE0C3;
+  border: 0; */
+/* } */
+@media (hover: hover) {
+  body {
+      color: #70a9a1 ;
+  }
+}
+#resume {
+  background-color: #70A9A1;
 }
 .container {
   display: flex;
@@ -98,4 +112,14 @@ h2 {
 ul a img {
   max-width: 48px;
   max-height: 48px;
+}
+/* .icons {
+  
+} */
+.project {
+height:200px;
+width: auto;
+}
+.inline {
+  display:inline 
 }
