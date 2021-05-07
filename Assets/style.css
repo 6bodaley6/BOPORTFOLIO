@@ -8,20 +8,21 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #1F363D;
-color: #CFE0C3 ;
+  background-color: #1f363d;
+  color: #cfe0c3;
 }
 
 .ABOUT-ME- {
-  background-color:#1F363D;
-  color:#9EC1A3;
+  background-color: #1f363d;
+  color: #9ec1a3;
+}
+
+nav {
 }
 
 nav a {
-color: #CFE0C3 ;
-
+  color: #cfe0c3;
 }
-
 
 .banner {
   background-size: cover;
@@ -31,11 +32,11 @@ color: #CFE0C3 ;
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
-  background-color: #40798C;
+  background-color: #40798c;
 }
 
 .subtitle {
-  color: #CFE0C3;
+  color: #cfe0c3;
 }
 
 .banner h3 {
@@ -45,7 +46,6 @@ color: #CFE0C3 ;
 #profile-pic {
   max-height: 300px;
 }
-
 
 #CONTACT-ME {
   display: flex;
@@ -68,11 +68,11 @@ color: #CFE0C3 ;
 /* } */
 @media (hover: hover) {
   body {
-      color: #70a9a1 ;
+    color: #70a9a1;
   }
 }
 #resume {
-  background-color: #70A9A1;
+  background-color: #70a9a1;
 }
 .container {
   display: flex;
@@ -117,9 +117,9 @@ ul a img {
   
 } */
 .project {
-height:200px;
-width: auto;
+  height: 200px;
+  width: auto;
 }
 .inline {
-  display:inline 
+  display: inline;
 }
